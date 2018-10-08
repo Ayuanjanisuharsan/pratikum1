@@ -1,0 +1,4 @@
+# pratikum1
+
+penjelasan
+

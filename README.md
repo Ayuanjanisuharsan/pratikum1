@@ -1,4 +1,4 @@
-# pratikum1
+# pratikum1.cpp
 
 penjelasan
 
@@ -31,7 +31,7 @@ using namespace std;
 ```
 	
 	
-## Latihan2
+## Latihan2.cpp
 
 penjelasan
 
@@ -68,7 +68,34 @@ using namespace std;
 }
 ```
 
-### latihan3
+### latihan3.cpp
 
-1.	
+1. Masukan angka1,angka2,besar,kecil
+2. Masukan angka1
+3. Masukan angka2
+4. Apakah angka1 lebih besar dari pada angka2. jika iya maka angka1 akan lebih besar dari angka2 dan sebaliknya
+5. Apakah angka1 lebih kecil dari pada angka2. Jika iya maka angka1 akan lebih kecil dari angka2 dan sebaliknya.
+
+```
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int angka1,angka2,besar,kecil;
+
+    cout << "masukan angka ke-1: ";
+    cin >> angka1;
+    cout << "masukan angka ke-2: ";
+    cin >> angka2;
+
+    besar= angka1 > angka2 ? angka1 : angka2;
+    kecil= angka1 < angka2 ? angka1 : angka2;
+
+    cout << endl;
+    cout << "angka" << besar << " lebih besar dari angka " << kecil << endl;
+    cout << "angka" << kecil << " lebih kecil dari angka " << besar << endl;
+
 	
+}
+```
